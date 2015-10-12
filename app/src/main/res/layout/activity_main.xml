@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+     tools:context=".MainActivity"
+    android:background="@drawable/fon"
+    android:accessibilityLiveRegion="none"
+
+    >
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strStart"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/btStart"
+        android:layout_marginTop="101dp"
+        android:shadowColor="#383838"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickStart"
+        android:textColor="#589DCC"
+        android:textStyle="bold"
+        android:textSize="33dp"
+        android:padding="0dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strLoad"
+        android:id="@+id/btLoad"
+        android:layout_below="@+id/btStart"
+        android:layout_alignLeft="@+id/btStart"
+        android:layout_alignStart="@+id/btStart"
+        android:layout_marginTop="30dp"
+        android:shadowColor="#494949"
+        android:background="@drawable/buttonshape"
+        android:textColor="#589DCC"
+        android:textSize="33dp"
+        android:textStyle="bold" />
+</RelativeLayout>
